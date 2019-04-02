@@ -145,29 +145,29 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                 social_media: [
                     {
                         name: "Facebook",
-                        url: "https://www.facebook.com",
+                        url: "https://www.facebook.com/PlazaPaseoReal",
                         iconClass: "fab fa-facebook"
                     },
-                    {
-                        name: "Twitter",
-                        url: "https://twitter.com",
-                        iconClass: "fab fa-twitter"
-                    },
+                    // {
+                    //     name: "Twitter",
+                    //     url: "https://twitter.com/",
+                    //     iconClass: "fab fa-twitter"
+                    // },
                     {
                         name: "Instagram",
-                        url: "https://www.instagram.com",
+                        url: "https://www.instagram.com/PlazaPaseoReal",
                         iconClass: "fab fa-instagram"
                     },
-                    {
-                        name: "SnapChat",
-                        url: "https://www.snapchat.com",
-                        iconClass: "fab fa-snapchat-ghost"
-                    },
                     // {
-                    //     name: "YouTube",
-                    //     url: "https://www.youtube.com/",
-                    //     iconClass: "fab fa-youtube"
-                    // }
+                    //     name: "SnapChat",
+                    //     url: "https://www.snapchat.com",
+                    //     iconClass: "fab fa-snapchat-ghost"
+                    // },
+                    {
+                        name: "YouTube",
+                        url: "https://www.youtube.com/channel/UCNV1MTkSYFXdpfNYEhEU8lw",
+                        iconClass: "fab fa-youtube"
+                    }
                 ],
             }
         },
