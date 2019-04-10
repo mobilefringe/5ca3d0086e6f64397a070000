@@ -796,7 +796,7 @@ input[type=search] {
     color: #fff;
     cursor: auto;
     &:hover {
-        color: #fff;
+        color: #000;
     }
 }
 .list-item {
