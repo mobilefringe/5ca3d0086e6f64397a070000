@@ -73,6 +73,7 @@
                 return {
                     dataLoaded: true,
                     pageContent: null,
+                    pageBanner: null,
                     siteInfo: site,
                     form_data : {},
                     formSuccess : false,
