@@ -135,6 +135,10 @@ img{
 .center {
     text-align: center;
 }
+input[type=search] {
+    width: 85%;
+    padding-left: 5px;
+}
 
 /* *** LOADING *** */
 #overlay {
