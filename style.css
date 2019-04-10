@@ -794,6 +794,10 @@ input[type=search] {
     background-color: $secondary;
     font-weight: 700;
     color: #555;
+    cursor: auto;
+    .change_color:hover {
+        color: #555;
+    }
 }
 .list-item {
     display: inline-block;
