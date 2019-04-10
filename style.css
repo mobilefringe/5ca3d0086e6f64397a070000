@@ -795,7 +795,7 @@ input[type=search] {
     font-weight: 700;
     color: #555;
     cursor: auto;
-    .change_color:hover {
+    &:hover {
         color: #555;
     }
 }
