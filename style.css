@@ -793,7 +793,7 @@ input[type=search] {
 .change_color {
     background-color: $secondary;
     font-weight: 700;
-    color: #555;
+    color: #fff;
     cursor: auto;
     &:hover {
         color: #555;
