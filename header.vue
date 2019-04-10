@@ -83,6 +83,7 @@
                     windowWidth: 0,
                     scrollY: false,
                     siteInfo: site,
+                    showDropDown: null
                 }
             },
             props:['menu_items', 'social_media'],
