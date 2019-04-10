@@ -127,7 +127,7 @@ define([], function () {
                 },
                 {
                     path: ':id',
-                    component: view('event_details'),
+                    component: view('event_and_promotions'),
                     meta: {
                         breadcrumb: 'Event Details',
                     },
