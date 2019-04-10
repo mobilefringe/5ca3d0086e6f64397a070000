@@ -793,10 +793,10 @@ input[type=search] {
 .change_color {
     background-color: $secondary;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     cursor: auto;
     &:hover {
-        color: #000;
+        color: #fff;
     }
 }
 .list-item {
