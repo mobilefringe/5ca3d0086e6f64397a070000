@@ -132,6 +132,10 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                             //     href: "/coupons"
                             // },
                             {
+                                name: "Services",
+                                href: "/pages/paseoreal-services"
+                            },
+                            {
                                 name: "Leasing",
                                 href: "/leasing"
                             },
