@@ -90,7 +90,8 @@
                 ...Vuex.mapGetters([
                     'property',
                     'timezone',
-                    'processedPromos'
+                    'processedPromos',
+                    'findRepoByName'
                 ]),
                 promoList: function promos() {
                     var vm = this;
