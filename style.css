@@ -250,7 +250,8 @@ img{
         }
     }
     .mini_logo {
-        max-width: 120px;
+        max-width: 190px;
+        padding-bottom: 20px;
     }
 }
 .sticky {
