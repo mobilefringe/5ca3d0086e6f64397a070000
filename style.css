@@ -1168,6 +1168,7 @@ $anim-speed: 0.3s;
         font-size: 0.875rem;
         line-height: normal;
         color: #555;
+        width: 5px;
     }
     .options-list {
         top: 42px;
