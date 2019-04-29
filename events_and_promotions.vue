@@ -113,10 +113,10 @@
             },
             created (){
                 this.loadData().then(response => {
-                    // var temp_repo = this.findRepoByName('Promotions Banner').images;
-                    // if(temp_repo != null) {
-                    //     this.pageBanner = temp_repo[0];
-                    // } else {
+                    var temp_repo = this.findRepoByName('Promotions Banner').images;
+                    if(temp_repo != null) {
+                        this.pageBanner = temp_repo[0];
+                    } else {
                         this.pageBanner = {
                             "image_url": "//codecloud.cdn.speedyrails.net/sites/5ca3d0086e6f64397a070000/image/png/1554995151000/plazapaseo_banner.png"
                         }
