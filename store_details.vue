@@ -156,7 +156,7 @@
             props:['id'],
             created (){
                 this.loadData().then(response => {
-                    var temp_repo = this.findRepoByName('Directory Banner');
+                    var temp_repo = this.findRepoByName('Stores Banner');
                     if(temp_repo !== null && temp_repo !== undefined) {
                        temp_repo = temp_repo.images;
                        this.pageBanner = temp_repo[0];
