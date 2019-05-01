@@ -187,24 +187,41 @@
                     'processedEvents'
                 ]),
                 homeBanners() {
-                    var banners = [];
-                    _.forEach(this.$store.state.banners, function (value, key) {
-                        var today = new Date();
-                        var start = new Date (value.start_date);
-                        if (start <= today){
-                            if (value.end_date){
-                                var end = new Date (value.end_date);
-                                if (end >= today){
-                                    banners.push(value);  
-                                }
-                            } else {
-                                banners.push(value);
-                            }
+                    // var banners = [];
+                    // _.forEach(this.$store.state.banners, function (value, key) {
+                    //     var today = new Date();
+                    //     var start = new Date (value.start_date);
+                    //     if (start <= today){
+                    //         if (value.end_date){
+                    //             var end = new Date (value.end_date);
+                    //             if (end >= today){
+                    //                 banners.push(value);  
+                    //             }
+                    //         } else {
+                    //             banners.push(value);
+                    //         }
                             
-                            if (value.cms_fields.subheader) {
-                                value.heading = value.cms_fields.subheader;
-                            }
-                        }
+                    //         if (value.cms_fields.subheader) {
+                    //             value.heading = value.cms_fields.subheader;
+                    //         }
+                    //     }
+                    // });
+                    // banners = _.orderBy(banners, function(o) { return o.position });
+                    // return banners
+                    var banners = []; //this.$store.state.banners
+                    var temp_image_urls = ["//codecloud.cdn.speedyrails.net/sites/5ca3d0086e6f64397a070000/image/jpeg/1556742035704/ppr_home_1925x470.jpg"];
+                    var temp_names = ["HUNGRY?", "Treat Yourself", null, null, null, null];
+                    var temp_desc = ["We know just the place...", "You deserve it.", null, null, null, null];
+                    var temp_urls = ["/dine", "/stores", null, null, null, null];
+                    
+                    _.forEach(temp_image_urls, function (val, key) {
+                        var value = {};
+                        value.image_url = temp_image_urls[key];
+                        // value.name = temp_names[key];
+                        // value.description = temp_desc[key];
+                        // value.url = temp_urls[key];
+                            
+                        banners.push(value);
                     });
                     banners = _.orderBy(banners, function(o) { return o.position });
                     return banners
