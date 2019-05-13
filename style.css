@@ -501,10 +501,10 @@ input[type=search] {
             .banner_btn {
                 padding: 7px 30px;
                 display: inline-block;
-                border: 1px solid $secondary;
+                border: 1px solid $primary;
                 background: transparent;
                 font-size: 0.9rem;
-                color: $secondary;    
+                color: $primary;    
                 text-transform: uppercase;
                 transition: all 0.3s ease;
                 &:hover {
