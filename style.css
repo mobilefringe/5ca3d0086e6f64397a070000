@@ -492,7 +492,7 @@ input[type=search] {
                     -ms-transform: translateX(-50%);
                     transform: translateX(-50%);
                     content: "";
-                    background: $secondary;    
+                    background: $primary;    
                 }
             }
             .banner_text {
