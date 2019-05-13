@@ -206,25 +206,6 @@
                     //         }
                     //     }
                     // });
-                    // banners = _.orderBy(banners, function(o) { return o.position });
-                    // return banners
-                    // var banners = []; //this.$store.state.banners
-                    // var temp_image_urls = ["//codecloud.cdn.speedyrails.net/sites/5ca3d0086e6f64397a070000/image/jpeg/1556742035704/ppr_home_1925x470.jpg"];
-                    // var temp_names = ["HUNGRY?", "Treat Yourself", null, null, null, null];
-                    // var temp_desc = ["We know just the place...", "You deserve it.", null, null, null, null];
-                    // var temp_urls = ["/dine", "/stores", null, null, null, null];
-                    
-                    // _.forEach(temp_image_urls, function (val, key) {
-                    //     var value = {};
-                    //     value.image_url = temp_image_urls[key];
-                    //     // value.name = temp_names[key];
-                    //     // value.description = temp_desc[key];
-                    //     // value.url = temp_urls[key];
-                            
-                    //     banners.push(value);
-                    // });
-                    // banners = _.orderBy(banners, function(o) { return o.position });
-                    // return banners
                     
                     var temp_images = [
                         {
@@ -304,7 +285,12 @@
             methods: {
                 loadData: async function() {
                     try {
-                        let results = await Promise.all([this.$store.dispatch("getData", "banners"), this.$store.dispatch("getData","promotions"), this.$store.dispatch("getData", "events"), this.$store.dispatch('LOAD_PAGE_DATA', {url: "https://paseoreal.mallmaverick.com/api/v4/paseoreal/social.json"})]);
+                        let results = await Promise.all([
+                            this.$store.dispatch("getData", "banners"), 
+                            this.$store.dispatch("getData","promotions"), 
+                            this.$store.dispatch("getData", "events"), 
+                            this.$store.dispatch('LOAD_PAGE_DATA', { url: "https://paseoreal.mallmaverick.com/api/v4/paseoreal/social.json" })
+                        ]);
                         return results;
                     } catch(e) {
                         console.log("Error loading data: " + e.message);    
