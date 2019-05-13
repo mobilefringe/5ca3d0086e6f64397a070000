@@ -187,29 +187,6 @@ define([], function () {
             ]
         },
         {
-            path: '/posts',
-            component: view('default'),
-            meta: {
-                breadcrumb: 'Blog',
-            },
-            children: [
-                {
-                    path: '',
-                    component: view('posts'),
-                    name: 'posts'
-                },
-                {
-                    path: ':id',
-                    component: view('posts_details'),
-                    meta: {
-                        breadcrumb: 'Blog Details',
-                    },
-                    name: 'postsDetails',
-                    props: true
-                }
-            ]
-        },
-        {
             path: '*',
             redirect: '/'
         }
