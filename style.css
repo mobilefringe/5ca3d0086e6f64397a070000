@@ -497,6 +497,7 @@ input[type=search] {
             }
             .banner_text {
                 margin: 50px 0;
+                font-size: 1.2rem;
             }
             .banner_btn {
                 padding: 7px 30px;
