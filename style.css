@@ -502,9 +502,9 @@ input[type=search] {
                 padding: 7px 30px;
                 display: inline-block;
                 border: 1px solid $primary;
-                background: transparent;
+                background: $primary;
                 font-size: 0.9rem;
-                color: $primary;    
+                color: #FFF;    
                 text-transform: uppercase;
                 transition: all 0.3s ease;
                 &:hover {
