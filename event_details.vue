@@ -5,7 +5,7 @@
             <div v-if="dataLoaded" v-cloak>
                 <div class="inside_page_header" v-if="pageBanner" v-bind:style="{ background: 'linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),  #753241 url(' + pageBanner.image_url + ') center center' }">
                     <div class="main_container position_relative">
-                        <h2>Events</h2>
+                        <h2>Events & Promotions</h2>
                     </div>
                 </div>
                 <div class="main_container">
@@ -92,9 +92,8 @@
                     
 					this.currentEvent = this.findEventBySlug(this.id);
 					if (this.currentEvent === null || this.currentEvent === undefined) {
-						this.$router.replace({ name: '404' });
-					}
-					else {
+						this.$router.replace({ path: '/events-and-promotions' });
+					} else {
 					    if (this.currentEvent.eventable_type === "Store"){
                             if (_.includes(this.currentEvent.event_image_url_abs, 'missing')) {
                                 this.currentEvent.image_url = this.currentEvent.store.store_front_url_abs; 
