@@ -456,7 +456,7 @@ input[type=search] {
         position: absolute;
         top: 0;
         right: 0;
-        background-color: rgba(50, 156, 156, .7);
+        background-color: rgba(70, 70, 70, .8);
         .banner_content {
             min-width: 500px;
             position: absolute;
