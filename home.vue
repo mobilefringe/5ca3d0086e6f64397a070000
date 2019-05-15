@@ -216,9 +216,9 @@
                         },
                         {
                             image_url: "//codecloud.cdn.speedyrails.net/sites/5ca3d0086e6f64397a070000/image/jpeg/1556742035704/ppr_home_1925x470.jpg",
-                            name: "Treat Yourself!",
-                            description: "You deserve it.",
-                            url: "/stores"
+                            name: "",
+                            description: "",
+                            url: ""
                         },
                     ]
                     return temp_images
