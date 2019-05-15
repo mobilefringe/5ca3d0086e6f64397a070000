@@ -120,7 +120,7 @@
                     toggleText: "Display as List",
                     logoView: true,
                     listView: false,
-                    dineFilter: 5962
+                    
                 }
             },
             created (){
@@ -195,14 +195,14 @@
                     var store_list = [];
                     var vm = this;
                     _.forEach(this.processedStores, function(value, key) {
-                        if(!_.includes(value.categories, vm.dineFilter)) {
+                       
                             if (_.includes(value.image_url, 'missing')) {
                                value.no_store_logo = true;
                             } else {
                               value.no_store_logo = false;
                             }
                             store_list.push(value);
-                        }
+                        
                     });
                     this.filteredStores = store_list;
                     return store_list
