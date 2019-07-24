@@ -106,6 +106,18 @@
                 }
             },
             created() {
+                this.loadData().then(response => {
+                    var temp_repo = this.findRepoByName('Promotions Banner');
+                    if(temp_repo !== null && temp_repo !== undefined) {
+                       temp_repo = temp_repo.images;
+                       this.pageBanner = temp_repo[0];
+                    } else {
+                        this.pageBanner = {
+                            "image_url": "//codecloud.cdn.speedyrails.net/sites/5ca3d0086e6f64397a070000/image/png/1554995151000/plazapaseo_banner.png"
+                        }
+                    }
+                });
+                
                 this.$store.dispatch("getData", "contests").then(response => {
                     this.currentContest = this.findContestByShowOnSlug('paseoreal-contest--2');
                     this.dataLoaded = true;
