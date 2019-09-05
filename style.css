@@ -327,18 +327,14 @@ input[type=search] {
         	text-transform: none;
             .dropdown_item {
                 padding: 10px;
-                // min-width: 156px;
                 min-width: 136px;
                 font-size: 0.875rem;
                 line-height: normal;
                 color: #FFF;
                 a:hover {
-                    // color: inherit;
                     color: #000;
                 }
             	&:hover, &:active, &:focus, &:visited {
-            	   // background: $primary;
-            	   // color: $secondary;
             	   background: $secondary;
             	    color: #000;
             	}
