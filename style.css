@@ -332,11 +332,14 @@ input[type=search] {
                 line-height: normal;
                 color: #FFF;
                 a:hover {
-                    color: inherit;
+                    // color: inherit;
+                    color: #000;
                 }
             	&:hover, &:active, &:focus, &:visited {
-            	    background: $primary;
-            	    color: $secondary;
+            	   // background: $primary;
+            	   // color: $secondary;
+            	   background: $secondary;
+            	    color: #000;
             	}
             }
         }
