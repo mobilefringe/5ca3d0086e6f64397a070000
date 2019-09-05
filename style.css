@@ -1349,7 +1349,7 @@ $anim-speed: 0.3s;
             // color: $primary;
             cursor:pointer;
             background-color:$primary;
-            color: #fff;
+            color: $secondary;
         }
     }
 }
