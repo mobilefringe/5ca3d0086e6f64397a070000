@@ -1344,10 +1344,8 @@ $anim-speed: 0.3s;
         margin: 7px 0;
         transition: all 0.3s ease;
         &:hover {
-            font-weight: 500;
-            color: $primary;
             cursor:pointer;
-            background-color:$secondary;
+            background-color:$primary;
         }
     }
 }
