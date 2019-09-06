@@ -256,11 +256,10 @@ input[type=search] {
 
 /* *** HEADER *** */
 #header {
-    padding: 39px 0 0 0;
     box-shadow: 1px 1px 7px rgba(12, 12, 12, 0.3);
     .social_icon_container {
         position: absolute;
-        top: 0px;
+        top: 28px;
         right: 10px;
         .social_icon {
             padding: 0 5px;
@@ -275,7 +274,7 @@ input[type=search] {
         }
     }
     .site_logo {
-        padding-bottom: 40px;
+        padding: 28px 0;
         max-width: 346px;
         transition: all 0.3s ease;
         img {
