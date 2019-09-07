@@ -412,6 +412,7 @@ input[type=search] {
             border: 1px solid #fff;
             // background-color: transparent;
             background-color: $secondary;
+            color: #fff;
             font-family: 'Montserrat', sans-serif;
             font-size: 1rem;
             line-height: 1rem;
