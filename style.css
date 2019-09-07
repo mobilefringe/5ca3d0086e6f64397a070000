@@ -420,6 +420,7 @@ input[type=search] {
             transition: all 0.3s ease;
             &:hover {
                 color: #FFF;
+                background-color: #555;
             }
         }
     }
