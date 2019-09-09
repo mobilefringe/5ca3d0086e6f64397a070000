@@ -81,7 +81,7 @@ a {
 img{
     max-width:100%;
 }
-p strong {
+strong {
    color: $primary;
 }
 [v-cloak] {
