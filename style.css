@@ -1844,7 +1844,7 @@ $anim-speed: 0.3s;
     }
     /* *** HEADER *** */
     #header {
-        padding-top: 45px;
+        padding-top: 28px;
     }
     #header .main_container .col-md-12 {
         display: -webkit-box;
