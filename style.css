@@ -1445,6 +1445,7 @@ $anim-speed: 0.3s;
     float: left;
     display: inline-block;
     line-height: normal;
+    font-size: 1rem;
 }
 .store_search {
     width: 215px;
@@ -2224,6 +2225,9 @@ $anim-speed: 0.3s;
             display: none;
         }
     }
+    input[type=search] { 
+        width: calc(100% - 36px); 
+    }
     .store_logo_container:active, .store_logo_container:focus {
         border: 1px solid $primary;
     }
@@ -2312,7 +2316,6 @@ $anim-speed: 0.3s;
     }
     /* *** INSIDE PAGES *** */
     .page-breadcrumb {
-        font-size: 0.7rem;
         .breadcrumbs ul li:before {
             font-size: 0.6rem;
         }
