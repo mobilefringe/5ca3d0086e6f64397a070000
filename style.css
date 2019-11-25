@@ -333,7 +333,7 @@ input[type=search] {
                 min-width: 136px;
                 font-size: 0.875rem;
                 line-height: normal;
-                color: #FFF;
+                color: #FFF !important;
                 a:hover {
                     color: #fff !important;
                 }
