@@ -341,6 +341,7 @@ input[type=search] {
                 }
                 p {
             	    margin: 0;
+            	    color: #fff;
             	}
             	&:hover, &:active, &:focus, &:visited {
             	   background: $secondary;
