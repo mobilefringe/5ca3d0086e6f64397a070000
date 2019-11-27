@@ -354,6 +354,9 @@ input[type=search] {
             	   background: $secondary;
             	   // color: #000;
             	   color: #fff !important;
+            	   p {
+            	       color: #000;
+            	   }
             	}
             }
         }
