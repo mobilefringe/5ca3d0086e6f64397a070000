@@ -343,23 +343,18 @@ input[type=search] {
                 min-width: 136px;
                 font-size: 0.875rem;
                 line-height: normal;
-                color: #FFF;
-                a {
-                    &:hover,
-                    &:focus {
-                        color: #000 !important;   
-                    }
-                }
-                p {
-            	    margin: 0;
-            	    color: #fff;
-            	}
             	&:hover, &:active, &:focus, &:visited {
             	   background: $secondary;
             	   a {
             	       color: #000;
             	   }
             	}
+            	a {
+                    &:hover,
+                    &:focus {
+                        color: #000 !important;   
+                    }
+                }
             }
         }
     }
