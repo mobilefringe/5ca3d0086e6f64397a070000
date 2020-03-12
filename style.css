@@ -352,7 +352,7 @@ input[type=search] {
             	}
             	a {
                     &:focus {
-                        color: #fff;
+                        color: #000;
                     }
                 }
             }
