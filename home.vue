@@ -294,7 +294,7 @@
                             this.$store.dispatch("getData", "banners"), 
                             this.$store.dispatch("getData","promotions"), 
                             this.$store.dispatch("getData", "events"), 
-                            this.$store.dispatch('LOAD_PAGE_DATA', { url: "https://paseoreal.mallmaverickstaging.com/api/v4/paseoreal/social.json" })
+                            this.$store.dispatch('LOAD_PAGE_DATA', { url: "https://paseoreal.mallmaverick.com/api/v4/paseoreal/social.json" })
                         ]);
                         return results;
                     } catch(e) {
