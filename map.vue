@@ -131,7 +131,7 @@
                     }
                 },
                 getPNGurl() {
-                    return "//staging.mallmaverick.com" + this.property.map_url;
+                    return "//assets.mallmaverick.com" + this.property.map_url;
                 },
                 pngMapRef() {
                     return this.$refs.pngmap_ref;
